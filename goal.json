@@ -96,7 +96,7 @@
     "title": "Test",
     "description": "Test",
     "price": 50,
-    "status": "Pending",
-    "remaining": "10%"
+    "status": "Done",
+    "remaining": "100%"
   }
 ]
