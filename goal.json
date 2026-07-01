@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "category": "بهینه سازی 🚀",
+    "order": 1,
+    "title": "بهبود عملکرد مدل‌ها",
+    "description": "مدل‌های سنگین (FFT، Wavelet، Fractal) می‌توانند UI را قفل کنند. راه حل: از Web Workers برای اجرای مدل‌ها در پس‌زمینه استفاده کنید.",
+    "price": 10,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 2,
+    "category": "بهینه سازی 🚀",
+    "order": 2,
+    "title": "انتخاب مدل‌ها توسط کاربر",
+    "description": "امکان غیرفعال کردن مدل‌های خاص برای تحلیل سریع‌تر. ذخیره تنظیمات انتخابی در localStorage.",
+    "price": 10,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 3,
+    "category": "بهینه سازی 🚀",
+    "order": 3,
+    "title": "دقت بیشتر مدل‌ها",
+    "description": "اعتبارسنجی متقابل برای جلوگیری از overfitting. وزن‌دهی پویا در Ensemble بر اساس عملکرد تاریخی",
+    "price": 10,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 4,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 1,
+    "title": "بارگذاری اولیه",
+    "description": "نمایش Skeleton Loading برای هر بخش. اجرای مدل‌ها به‌صورت تدریجی و نمایش نتایج به‌مرور.",
+    "price": 5,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 5,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 2,
+    "title": "داده‌نمونه‌برداری نمودار",
+    "description": "برای بیش از ۱۰۰ نقطه، از الگوریتم LTTB برای خلاصه‌سازی استفاده کنید.",
+    "price": 25,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 6,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 3,
+    "title": "راهنمای کاربری",
+    "description": "یک تور راهنما با react-joyride اضافه کنید تا کاربران با قابلیت‌ها آشنا شوند.",
+    "price": 5,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 7,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 4,
+    "title": "هشدارهای خودکار",
+    "description": "اگر مدل‌ها سیگنال قوی (اطمینان > ۸۰٪) تولید کنند، یک Notification در مرورگر نشان دهید.",
+    "price": 15,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 8,
+    "category": "🛠 پیشنهادات فنی",
+    "order": 1,
+    "title": "جداسازی مدل‌ها",
+    "description": "فایل models/index.ts خیلی بزرگ است. هر مدل را در فایل جداگانه قرار دهید",
+    "price": 50,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 9,
+    "category": "🛠 پیشنهادات فنی",
+    "order": 2,
+    "title": "تحلیل OHLC",
+    "description": "پشتیبانی از داده‌های باز، بالا، پایین، بسته برای دقت بیشتر مدل‌های شمعی.",
+    "price": 50,
+    "status": "not Start",
+    "remaining": "0%"
+  }
+]
