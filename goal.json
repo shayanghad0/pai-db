@@ -88,5 +88,15 @@
     "price": 50,
     "status": "not Start",
     "remaining": "0%"
+  },
+  {
+    "id": 10,
+    "category": "Test",
+    "order": 2,
+    "title": "تحلیل OHLC",
+    "description": "پشتیبانی از داده‌های باز، بالا، پایین، بسته برای دقت بیشتر مدل‌های شمعی.",
+    "price": 50,
+    "status": "not Start",
+    "remaining": "0%"
   }
 ]
