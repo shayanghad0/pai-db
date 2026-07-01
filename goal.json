@@ -92,10 +92,10 @@
   {
     "id": 10,
     "category": "Test",
-    "order": 4,
+    "order": 1,
     "title": "Test",
     "description": "Test",
-    "price": 50,
+    "price": 10,
     "status": "Done",
     "remaining": "100%"
   }
