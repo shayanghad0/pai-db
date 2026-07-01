@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "category": "🛠 پیشنهادات فنی",
+    "category": "🛠 فنی",
     "order": 1,
     "title": "جداسازی مدل‌ها",
     "description": "فایل models/index.ts خیلی بزرگ است. هر مدل را در فایل جداگانه قرار دهید",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "category": "🛠 پیشنهادات فنی",
+    "category": "🛠 فنی",
     "order": 2,
     "title": "تحلیل OHLC",
     "description": "پشتیبانی از داده‌های باز، بالا، پایین، بسته برای دقت بیشتر مدل‌های شمعی.",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "category": "🛠 پیشنهادات فنی",
+    "category": "🛠 فنی",
     "order": 3,
     "title": "اندیکاتورهای تکنیکال بیشتر",
     "description": "اضافه کردن اندیکاتورهایی مانند Stochastic Oscillator، Ichimoku Cloud کامل (با ابر)، Fibonacci Retracement، Pivot Points، Williams %R، CCI. افزایش غنای تحلیل و تطابق با نیاز معامله‌گران حرفه‌ای.",
