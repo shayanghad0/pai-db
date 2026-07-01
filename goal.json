@@ -6,7 +6,7 @@
     "title": "بهبود عملکرد مدل‌ها",
     "description": "مدل‌های سنگین (FFT، Wavelet، Fractal) می‌توانند UI را قفل کنند. راه حل: از Web Workers برای اجرای مدل‌ها در پس‌زمینه استفاده کنید.",
     "price": 10,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -17,7 +17,7 @@
     "title": "انتخاب مدل‌ها توسط کاربر",
     "description": "امکان غیرفعال کردن مدل‌های خاص برای تحلیل سریع‌تر. ذخیره تنظیمات انتخابی در localStorage.",
     "price": 10,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -28,7 +28,7 @@
     "title": "دقت بیشتر مدل‌ها",
     "description": "اعتبارسنجی متقابل برای جلوگیری از overfitting. وزن‌دهی پویا در Ensemble بر اساس عملکرد تاریخی",
     "price": 10,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -39,7 +39,7 @@
     "title": "بارگذاری اولیه",
     "description": "نمایش Skeleton Loading برای هر بخش. اجرای مدل‌ها به‌صورت تدریجی و نمایش نتایج به‌مرور.",
     "price": 5,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -50,7 +50,7 @@
     "title": "داده‌نمونه‌برداری نمودار",
     "description": "برای بیش از ۱۰۰ نقطه، از الگوریتم LTTB برای خلاصه‌سازی استفاده کنید.",
     "price": 25,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -61,7 +61,7 @@
     "title": "راهنمای کاربری",
     "description": "یک تور راهنما با react-joyride اضافه کنید تا کاربران با قابلیت‌ها آشنا شوند.",
     "price": 5,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -72,7 +72,7 @@
     "title": "هشدارهای خودکار",
     "description": "اگر مدل‌ها سیگنال قوی (اطمینان > ۸۰٪) تولید کنند، یک Notification در مرورگر نشان دهید.",
     "price": 15,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -83,7 +83,7 @@
     "title": "جداسازی مدل‌ها",
     "description": "فایل models/index.ts خیلی بزرگ است. هر مدل را در فایل جداگانه قرار دهید",
     "price": 50,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
@@ -94,19 +94,63 @@
     "title": "تحلیل OHLC",
     "description": "پشتیبانی از داده‌های باز، بالا، پایین، بسته برای دقت بیشتر مدل‌های شمعی.",
     "price": 50,
-    "paidAmount" : 0,
+    "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
   {
     "id": 10,
-    "category": "Test",
+    "category": "کسب درآمد 💸",
     "order": 1,
-    "title": "Test",
-    "description": "Test",
-    "price": 10,
-    "paidAmount" : 5,
-    "status": "Done",
-    "remaining": "100%"
+    "title": "ایجاد سمت سرور (Backend)",
+    "description": "پیاده‌سازی سرور با Node.js و Express برای مدیریت کاربران، ذخیره‌سازی تحلیل‌ها و ارتباط با پایگاه داده. استفاده از JWT برای احراز هویت.",
+    "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 11,
+    "category": "کسب درآمد 💸",
+    "order": 2,
+    "title": "سیستم ثبت‌نام و ورود و پایگاه داده کاربران",
+    "description": "ایجاد سیستم احراز هویت کامل شامل ثبت‌نام، ورود، بازیابی رمز عبور. ذخیره‌سازی اطلاعات کاربران و تاریخچه تحلیل‌های آن‌ها در پایگاه داده (PostgreSQL یا MongoDB).",
+    "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 12,
+    "category": "کسب درآمد 💸",
+    "order": 3,
+    "title": "پنل مدیریت",
+    "description": "پنل ادمین برای مدیریت کاربران، مشاهده سفارشات و تاریخچه استفاده. امکان فعال/غیرفعال کردن کاربران، مشاهده آمار و گزارش‌گیری.",
+    "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 13,
+    "category": "کسب درآمد 💸",
+    "order": 4,
+    "title": "صفحه قیمت‌گذاری و اتصال به درگاه پرداخت ارز دیجیتال",
+    "description": "ایجاد صفحه قیمت‌گذاری با پلن‌های مختلف و اتصال به درگاه پرداخت NowPayment برای پرداخت با ارزهای دیجیتال. مدیریت تراکنش‌ها و وضعیت پرداخت.",
+    "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 14,
+    "category": "کسب درآمد 💸",
+    "order": 5,
+    "title": "محدودیت هوش مصنوعی و سیگنال بر اساس پلن",
+    "description": "اعمال محدودیت برای تعداد درخواست‌های هوش مصنوعی و سیگنال‌ها بر اساس پلن خریداری شده. کنترل دسترسی و استفاده از منابع.",
+    "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
   }
 ]
