@@ -105,7 +105,7 @@
     "title": "Test",
     "description": "Test",
     "price": 10,
-    "paidAmount" : 0,
+    "paidAmount" : 5,
     "status": "Done",
     "remaining": "100%"
   }
