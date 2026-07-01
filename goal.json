@@ -5,7 +5,7 @@
     "order": 1,
     "title": "بهبود عملکرد مدل‌ها",
     "description": "مدل‌های سنگین (FFT، Wavelet، Fractal) می‌توانند UI را قفل کنند. راه حل: از Web Workers برای اجرای مدل‌ها در پس‌زمینه استفاده کنید.",
-    "price": 10,
+    "price": 20,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -16,7 +16,7 @@
     "order": 2,
     "title": "انتخاب مدل‌ها توسط کاربر",
     "description": "امکان غیرفعال کردن مدل‌های خاص برای تحلیل سریع‌تر. ذخیره تنظیمات انتخابی در localStorage.",
-    "price": 10,
+    "price": 5,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -27,7 +27,7 @@
     "order": 3,
     "title": "دقت بیشتر مدل‌ها",
     "description": "اعتبارسنجی متقابل برای جلوگیری از overfitting. وزن‌دهی پویا در Ensemble بر اساس عملکرد تاریخی",
-    "price": 10,
+    "price": 25,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -49,7 +49,7 @@
     "order": 2,
     "title": "داده‌نمونه‌برداری نمودار",
     "description": "برای بیش از ۱۰۰ نقطه، از الگوریتم LTTB برای خلاصه‌سازی استفاده کنید.",
-    "price": 25,
+    "price": 20,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -60,7 +60,7 @@
     "order": 3,
     "title": "راهنمای کاربری",
     "description": "یک تور راهنما با react-joyride اضافه کنید تا کاربران با قابلیت‌ها آشنا شوند.",
-    "price": 5,
+    "price": 10,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -71,29 +71,29 @@
     "order": 4,
     "title": "هشدارهای خودکار",
     "description": "اگر مدل‌ها سیگنال قوی (اطمینان > ۸۰٪) تولید کنند، یک Notification در مرورگر نشان دهید.",
-    "price": 15,
+    "price": 5,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
   {
     "id": 8,
-    "category": "🛠 فنی",
+    "category": "🛠 پیشنهادات فنی",
     "order": 1,
     "title": "جداسازی مدل‌ها",
     "description": "فایل models/index.ts خیلی بزرگ است. هر مدل را در فایل جداگانه قرار دهید",
-    "price": 50,
+    "price": 15,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
   },
   {
     "id": 9,
-    "category": "🛠 فنی",
+    "category": "🛠 پیشنهادات فنی",
     "order": 2,
     "title": "تحلیل OHLC",
     "description": "پشتیبانی از داده‌های باز، بالا، پایین، بسته برای دقت بیشتر مدل‌های شمعی.",
-    "price": 50,
+    "price": 25,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -104,7 +104,7 @@
     "order": 1,
     "title": "ایجاد سمت سرور (Backend)",
     "description": "پیاده‌سازی سرور با Node.js و Express برای مدیریت کاربران، ذخیره‌سازی تحلیل‌ها و ارتباط با پایگاه داده. استفاده از JWT برای احراز هویت.",
-    "price": 50,
+    "price": 60,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -115,7 +115,7 @@
     "order": 2,
     "title": "سیستم ثبت‌نام و ورود و پایگاه داده کاربران",
     "description": "ایجاد سیستم احراز هویت کامل شامل ثبت‌نام، ورود، بازیابی رمز عبور. ذخیره‌سازی اطلاعات کاربران و تاریخچه تحلیل‌های آن‌ها در پایگاه داده (PostgreSQL یا MongoDB).",
-    "price": 50,
+    "price": 65,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -126,7 +126,7 @@
     "order": 3,
     "title": "پنل مدیریت",
     "description": "پنل ادمین برای مدیریت کاربران، مشاهده سفارشات و تاریخچه استفاده. امکان فعال/غیرفعال کردن کاربران، مشاهده آمار و گزارش‌گیری.",
-    "price": 50,
+    "price": 75,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -137,7 +137,7 @@
     "order": 4,
     "title": "صفحه قیمت‌گذاری و اتصال به درگاه پرداخت ارز دیجیتال",
     "description": "ایجاد صفحه قیمت‌گذاری با پلن‌های مختلف و اتصال به درگاه پرداخت NowPayment برای پرداخت با ارزهای دیجیتال. مدیریت تراکنش‌ها و وضعیت پرداخت.",
-    "price": 50,
+    "price": 90,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
@@ -149,6 +149,116 @@
     "title": "محدودیت هوش مصنوعی و سیگنال بر اساس پلن",
     "description": "اعمال محدودیت برای تعداد درخواست‌های هوش مصنوعی و سیگنال‌ها بر اساس پلن خریداری شده. کنترل دسترسی و استفاده از منابع.",
     "price": 50,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 15,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 5,
+    "title": "فیلترهای پیشرفته در صفحه «مقایسه مدل‌ها»",
+    "description": "افزودن فیلتر بر اساس محدوده اطمینان (مثلاً >۷۰%)، نوع پیش‌بینی، و حتی جستجوی ترکیبی. امکان تحلیل عمیق‌تر نتایج مدل‌ها.",
+    "price": 20,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 16,
+    "category": "🛠 پیشنهادات فنی",
+    "order": 3,
+    "title": "اندیکاتورهای تکنیکال بیشتر",
+    "description": "اضافه کردن اندیکاتورهایی مانند Stochastic Oscillator، Ichimoku Cloud کامل (با ابر)، Fibonacci Retracement، Pivot Points، Williams %R، CCI. افزایش غنای تحلیل و تطابق با نیاز معامله‌گران حرفه‌ای.",
+    "price": 35,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 17,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 6,
+    "title": "شناسایی الگوهای شمعی و کلاسیک به‌صورت گرافیکی",
+    "description": "نمایش الگوهای شناسایی‌شده روی نمودار با هایلایت یا برچسب (هرچند مدل Price Pattern Detector وجود دارد). بهبود درک بصری برای کاربر.",
+    "price": 25,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 18,
+    "category": "🎨 بهبودهای UI/UX",
+    "order": 7,
+    "title": "خروجی به‌صورت HTML تعاملی",
+    "description": "امکان دانلود یک فایل HTML مستقل که شامل نمودار تعاملی و نتایج تحلیل باشد (مشابه فایل JSON اما با قابلیت نمایش). اشتراک‌گذاری گزارش‌های زیبا با دیگران.",
+    "price": 30,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 19,
+    "category": "بهینه سازی 🚀",
+    "order": 4,
+    "title": "سیستم رتبه‌بندی و امتیازدهی به سیگنال‌ها",
+    "description": "کاربران بتوانند به سیگنال‌های تولیدشده امتیاز دهند (مفید/غیرمفید) و این داده‌ها به بهبود Ensemble کمک کند. یادگیری جمعی.",
+    "price": 30,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 20,
+    "category": "موارد حیاتی / bug",
+    "order": 1,
+    "title": "خطای Context در ErrorBoundary",
+    "description": "ErrorBoundary بالاتر از ThemeProvider قرار گرفته و در هنگام نمایش خطا، کامپوننت ErrorFallback از useTheme استفاده می‌کند که به دلیل نبود Context، خطای جدیدی ایجاد می‌کند. راه حل: جابجایی ErrorBoundary به پایین‌تر از ThemeProvider یا استفاده از Context مستقل.",
+    "price": 15,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 21,
+    "category": "موارد حیاتی / bug",
+    "order": 2,
+    "title": "مشکل Decode لینک اشتراک‌گذاری",
+    "description": "در app.tsx برای خواندن داده از URL از escape/unescape استفاده شده که منسوخ هستند و با کاراکترهای غیرASCII به درستی کار نمی‌کنند و ممکن است باعث خرابی دیکد شوند. راه حل: استفاده از encodeURIComponent/decodeURIComponent یا atob/btoa.",
+    "price": 10,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 22,
+    "category": "موارد حیاتی / bug",
+    "order": 3,
+    "title": "تصادفی بودن اطمینان الگوها",
+    "description": "در patternDetection.ts، مقدار confidence برای الگوهای تشخیص‌داده‌شده با Math.random تعیین می‌شود که نتایج را غیرقابل تکرار و غیرقابل اعتماد می‌کند. راه حل: محاسبه confidence بر اساس معیارهای واقعی مانند شدت الگو یا تطابق با داده.",
+    "price": 20,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 23,
+    "category": "موارد حیاتی / bug",
+    "order": 4,
+    "title": "عدم مدیریت خطای Clipboard در PriceList",
+    "description": "در مودال PriceList، تابع کپی از navigator.clipboard بدون catch خطا استفاده کرده است؛ در محیط HTTP این عمل با خطا مواجه شده و برنامه متوقف می‌شود. راه حل: افزودن try/catch و نمایش پیام خطای مناسب یا استفاده از روش جایگزین (مثلاً document.execCommand).",
+    "price": 5,
+    "paidAmount": 0,
+    "status": "not Start",
+    "remaining": "0%"
+  },
+  {
+    "id": 24,
+    "category": "موارد حیاتی / bug",
+    "order": 5,
+    "title": "احتمال خطا در solveLinearSystem (ریاضی)",
+    "description": "در صورتی که pivot صفر باشد، حل دستگاه معادلات ادامه می‌یابد اما ضرایب رگرسیون به‌درستی محاسبه نمی‌شوند و مدل‌های چندجمله‌ای نتایج نادرستی تولید می‌کنند (بدون ارسال خطا). راه حل: بررسی pivot و در صورت صفر، استفاده از روش جایگزین (مثلاً SVD) یا پرتاب خطای واضح.",
+    "price": 25,
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
