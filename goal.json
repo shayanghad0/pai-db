@@ -262,5 +262,16 @@
     "paidAmount": 0,
     "status": "not Start",
     "remaining": "0%"
-  }
+  },
+  {
+    "id": 25,
+    "category": "🛠 فنی",
+    "order": 5,
+    "title": "One code python",
+    "description": "Support one python file to do anything and dont need to have a site",
+    "price": 65,
+    "paidAmount": 0,
+    "status": "pending",
+    "remaining": "0%"
+  },
 ]
